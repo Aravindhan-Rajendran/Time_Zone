@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3688/3688640.png">
+    <title>TIME ZONE</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="one">
+        <h1>TimeZone API</h1>
+        <h1>Your Current Time Zone</h1>
+        <div class="ourtime">
+            <p id="lati">Lat: </p>
+            <p id="longi">Long: </p>
+            <p id="timezone">Timezone: </p>
+            <p id="offset-std">Offset STD: </p>
+            <p id="offset-std-seconds">Offset STD Seconds: </p>
+            <p id="offset-dst">Offset DST: </p>
+            <p id="offset-dst-seconds">Offset DST Seconds: </p>
+            <p id="country">Country: </p>
+            <p id="postcode">Postcode: </p>
+            <p id="city">City: </p>
+        </div>
+    </section>
+    <section id="two">
+        <h1 style="color: white; padding-top: 30px; font-size: 3rem;">Enter Address</h1>
+        <div id="inputs">
+            <input id="address-input" type="text" placeholder="Enter Address"
+                style="background-color: black; border: 1px solid grey; width: 90%; height: 30px; margin-left: 70px;color:white;" />
+            <button id="submit-btn" type="submit"
+                style="width: 100px; height: 30px; margin: 30px 0px 0px 70px; font-size: 1rem; cursor: pointer; border-radius: 3px;">Submit</button>
+        </div>
+        <div>
+            <h1 style="color: white; font-size: 3rem;">Your result</h1>
+            <div class="ourtime" style="color: white; border-color: white;">
+                <p id="error-msg" style="color: red;"></p>
+                <p id="lati-result">Lat: </p>
+                <p id="longi-result">Long: </p>
+                <p id="timezone-result">Timezone: </p>
+                <p id="offset-std-result">Offset STD: </p>
+                <p id="offset-std-seconds-result">Offset STD Seconds: </p>
+                <p id="offset-dst-result">Offset DST: </p>
+                <p id="offset-dst-seconds-result">Offset DST Seconds: </p>
+                <p id="country-result">Country: </p>
+                <p id="postcode-result">Postcode: </p>
+                <p id="city-result">City: </p>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js">
+        
+    </script>
+</body>
+
+</html>
